@@ -3,8 +3,6 @@ public with sharing class ExchangeRateCalculator {
 
 public static void onAfterInsert(List<Opportunity> newOpp, Map<Id,Opportunity> mapOpportunity){
     multiCurrencyBuilder(mapOpportunity.keySet());
-    
-
 }
 
 @future(Callout=true)
@@ -14,14 +12,10 @@ public static void multiCurrencyBuilder(Set<Id> opp){
     for(Opportunity updateOpp : lstOpportunity){
         updateOpp.USD__c = updateOpp.Amount * resp.rates.get('USD');
         updateOpp.GBP__c = updateOpp.Amount * resp.rates.get('GBP');
-        updateOpp.EUR__c = updateOpp.Amount * resp.rates.get('EUR');
-        
+        updateOpp.EUR__c = updateOpp.Amount * resp.rates.get('EUR');    
     }
     //System.debug(resp.rates.get('NGN'));
     update lstOpportunity;
-
-
-
 }
     
 }
