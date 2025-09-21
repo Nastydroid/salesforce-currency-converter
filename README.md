@@ -43,5 +43,4 @@ A Salesforce project that integrates with an external Currency Exchange API to a
 
 ### 👨‍💻 Author
 Oluwafemi Sopade – Salesforce Developer
-<img width="468" height="645" alt="image" src="https://github.com/user-attachments/assets/24f3db5c-913e-4dfd-a4f8-d3a420a14d39" />
 
