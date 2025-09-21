@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomCompact1</fullName>
+    <fields>AccountId</fields>
+    <fields>Amount</fields>
+    <fields>Amount_In_Euro__c</fields>
+    <fields>Amount_In_GBP__c</fields>
+    <fields>Amount_In_USD__c</fields>
+    <fields>CloseDate</fields>
+    <fields>OwnerId</fields>
+    <label>CustomCompact1</label>
+</CompactLayout>
